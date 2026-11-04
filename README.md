@@ -13,6 +13,7 @@
   - [Docker Image](#docker-image)
   - [Precompiled Binaries](#precompiled-binaries)
   - [Verifying Signatures](#verifying-signatures)
+  - [One-Click Deploy](#one-click-deploy)
 - [3. Configuration](#3-configuration)
   - [`config.yaml` Structure](#configyaml-structure)
   - [Backend Configuration (`Backend` Object)](#backend-configuration-backend-object)
@@ -175,6 +176,10 @@ Then, verify the signature (e.g., for `tlsproxy-linux-amd64`):
 ```console
 gpg --verify tlsproxy-linux-amd64.sig tlsproxy-linux-amd64
 ```
+
+### One-Click Deploy
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/TLSPROXY/)
 
 ## 3. Configuration
 
